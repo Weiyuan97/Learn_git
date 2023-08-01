@@ -2,4 +2,20 @@ Download code
 git clone <https>
 Test word 1
 Test word 2 (in Branch_1)
+
+merge 2 diff branch will show error like this and four options
+Accept Curremt change(keep word 4)
+Accept incoming change(keep word 3)
+accept both change(keep word 4 & 3 older will in top)
+Compare changes(will who diff)
+//<<<<<<< HEAD
 Test word 4 (in main)
+=======
+Test word 3 (in Branch_1)
+>>>>>>> branch_1
+
+<<<<<<< HEAD
+Test word 4 (in main)
+=======
+Test word 3 (in Branch_1)
+>>>>>>> branch_1
